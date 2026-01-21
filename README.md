@@ -6,6 +6,7 @@ Byrjandi á viku 5.
 
 
 Dagbók:
+
     vika 5 og 6. 02.02 -  13.02:
     vika 7 og 8. 16.02 - 27.02:
     vika 9 og 10. 02.03 - 13.03:
