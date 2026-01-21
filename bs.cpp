@@ -21,10 +21,10 @@ int main() {
         int y = dist(gen);
 
         if (y % 2 == 0) {  // Checking whether number is even / 0 leftover when divided by 2
-            std::cout << y << ": The number is even";
+            std::cout << y << ": The number is even\n";
         }
         else if (y % 2 == 1) {  // 1 leftover when divided by 2
-            std::cout << y << ": The number is odd";
+            std::cout << y << ": The number is odd\n";
         }
     }
 
@@ -35,10 +35,10 @@ int main() {
         std::cin >> y;
         
         if (y % (int)sqrt(y) == 0) {    // Checking if the number is a perfect square
-            std::cout << y << ": The number is a perfect square";
+            std::cout << y << ": The number is a perfect square\n";
         }
         else {
-            std::cout << y << ": The number is not a perfect square";
+            std::cout << y << ": The number is not a perfect square\n";
         }
     }
 
