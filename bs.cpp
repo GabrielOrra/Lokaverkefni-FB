@@ -1,5 +1,6 @@
 #include <iostream>
 #include <random>
+#include <string>
 
 
 int main() {
@@ -41,6 +42,55 @@ int main() {
             std::cout << y << ": The number is not a perfect square\n";
         }
     }
+    
+    
+    
+    bool condition = true;
+    // std::cout << condition << "\n"; / More troubleshooting
+    while (condition) {
 
+        std::string val;    // Búa til string breytu
+        std::cout << "Hvað finnst þér betra, For eða While?: ";
+        std::cin >> val;
+
+
+    
+        long long factorial = 1;    // long long er riiiiiisa stór integer
+    
+        if (val == "For" || val == "for") {     // || = "eða"
+            
+            int num;
+            std::cout << "Sláðu inn tölu: "; 
+            std::cin >> num;  // inputta tölu í breytuna
+
+            for (int i = 1; i < num+1; i++) {     // "For i in range(1, num)"
+                factorial *= i;     // Margfalda með factorial breytunni með i
+                // std::cout << factorial << "\n"; / troubleshooting / we good now
+            }
+            std::cout << num << " Hrópamerkt er " << factorial << "\n";
+            condition = false;
+            // std::cout << condition << "\n"; / troubleshooting
+        }
+        else if (val == "While" || val == "while") {
+
+            int num;
+            std::cout << "Sláðu inn tölu: "; 
+            std::cin >> num;  // inputta tölu í breytuna
+
+            int i = 1;
+            while (i < num+1) {
+                factorial *= i;
+                i++;
+            }
+            std::cout << num << " Hrópamerkt er " << factorial << "\n";
+            condition = false;
+            // std::cout << condition << "\n"; / troubleshooting
+        }
+        else {
+            std::cout << "Try again lil bro \n";
+        }
+        
+    }
+    
     return 0;
 }
