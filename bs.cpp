@@ -3,6 +3,17 @@
 #include <string>
 
 
+std::pair<int,int> meterToFeet(float meter) { // "std::pair<int,int>" til þess að skila tvem gildum / til að skila bara einu gildi -> "int meterToFeet(float meter){}"
+    meter *= 100;    // "1.78" -> "178"
+    int inches = round(meter/2.54);  // breyta tölunni í tommur og rúna af
+    int feet = floor(inches / 12); 
+    int remainder = inches % 12;
+
+    // std::cout << "Hæðin þín í fetum og tommum er " << feet << " fet og " << remainder << " tommur\n";
+    return {feet, remainder}; 
+}
+
+
 int main() {
     std::cout << "Hello World\n";    // "\n" = line break
 
@@ -92,5 +103,19 @@ int main() {
         
     }
     
+    std::cout << "Sláðu inn hæð þína í metrum: ";
+    
+    float haed;
+    std::cin >> haed;
+    
+    if (haed > 3) {
+        std::cout << "Lying ahh";
+    }
+    else {
+        auto result = meterToFeet(haed);  // kalla í fallið og setja "haed" í fallið, skíra breytu fyrir gildin sem fallið skilar
+        std::cout << "Hæðin þín í fetum og tommum er " << result.first << " fet og " << result.second << " tommur\n";
+    }
+
+
     return 0;
 }
