@@ -1,7 +1,7 @@
 # Lokaverkefni-FB
 Hér læri ég á C++ forritunarmálið og leysi ýmis þrautir auk þess að gera stærri verkefni!!!
 
-Á tveggja vikna fresti ætla ég að klára 7 verkefni úr forritun 1, nema í C++ í staðinn fyrir python.
+Á tveggja vikna fresti ætla ég að klára 7 kattis dæmi. Stærri verkefni eru t.d. mp3 spilari og dynamic array.
 Byrjandi á viku 5. 
 
 
