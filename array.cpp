@@ -1,4 +1,7 @@
 #include <iostream>
+#include <algorithm>
+#include <functional>
+
 
 int main() {
 
@@ -10,8 +13,40 @@ int main() {
     // replacing the value of index number 0
     intList[0] = 9;
 
-    std::cout << intList[4] << "\n" << intList[0] << "\n";
+    // total bytes / bytes per element = number of elements
+    for (int i = 0; i < sizeof(intList)/sizeof(intList[0]); i++) {
+        std::cout << intList[i] << "\n";
+    }
 
+    // sum of all elemtns of the array
+    int sumOfElements = 0;
+    for (int i = 0; i < sizeof(intList)/sizeof(intList[0]); i++) {
+        sumOfElements += intList[i];
+    }
+    std::cout << "The sum of all elements of the array is: " << sumOfElements << "\n";
+
+    // print a sorted array
+    int n = sizeof(intList)/sizeof(intList[0]);
+    // pointer to the first element, pointer to one past the last element
+    std::sort(intList, intList + n);
+
+    std::cout << "Sorted array: " << intList[0];
+    for (int i = 1; i < sizeof(intList)/sizeof(intList[0]); i++) {
+        std::cout << ", " << intList[i];
+    }
+    std::cout << "\n";
+
+    // printing a reverse sorted array
+
+    //std::reverse(intList, intList + n);
+    std::sort(intList, intList + n, std::greater<int>());
+    
+    std::cout << "Sorted array (descending order): " << intList[0];
+    for (int i = 1; i < sizeof(intList)/sizeof(intList[0]); i++) {
+        std::cout << ", " << intList[i];
+    }
+    std::cout << "\n";
+    
 
     return 0;
 }
