@@ -48,5 +48,16 @@ int main() {
     std::cout << "\n";
     
 
+    std::string sL[5] = {"C++", "er", "versta", "forritunarmál", "heimsins"};
+    
+    std::cout << sL[2] << ' ' << sL[3] << ' ' << sL[4] << ' ' << sL[1] << ' ' << sL[0] << "\n";
+    std::cout << sL[4][3] << sL[2][5] << sL[2][4] << sL[2][4] << sL[4][2] << ' ' << sL[1] << ' ';
+    for (int i = 0; i < 5; i++) {std::cout << sL[2][i];}
+    std::cout << sL[4][2] << ' ';
+    for (int i = 0; i < 6; i++) {std::cout << sL[3][i];}
+    std::cout << sL[2][5] << sL[1][1] << sL[4][2] << ' ' << sL[4] << "\n";
+    
+
+
     return 0;
 }
