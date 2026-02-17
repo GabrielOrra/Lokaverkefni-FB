@@ -9,7 +9,7 @@ int main() {
         result = n * (n + 1) / 2;
     }
     else if (n == -1) {
-        result = 0
+        result = 0;
     }
     else {
         result = 1 + n * (n + 1) / 2;
