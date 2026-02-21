@@ -14,7 +14,12 @@ int main () {
 
     std::sort(list, list + n);
 
-    std::cout << list[n-1];
-
+    if (n > list[n-1]) {
+        std::cout << n << "\n";
+    }
+    else {
+        std::cout << list[n-1] << "\n";
+    }
+    
     return 0;
 }
