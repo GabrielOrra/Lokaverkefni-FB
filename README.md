@@ -1,9 +1,7 @@
 # Lokaverkefni-FB
 Hér læri ég á C++ forritunarmálið og leysi ýmis þrautir auk þess að gera stærri verkefni!!!
 
-Á tveggja vikna fresti ætla ég að klára 7 kattis dæmi. Stærri verkefni eru t.d. mp3 spilari og dynamic array.
-Byrjandi á viku 5. 
-
+Á tveggja vikna fresti ætla ég að klára 7 kattis dæmi. Stærri verkefni eru t.d. dynamic array.
 
 Dagbók:
 
@@ -11,11 +9,8 @@ Dagbók:
         Byrjaður að læra basic syntax og aðgerir C++. leysti eitt forritunarkeppnis dæmi og ætla að leysa fleiri í þessari viku (1/2/26, 21:59)
         Leysti 7 kattis dæmi og byrjaði að nota vectors. (10/2/26, 18:18)
 
-    vika 7 og 8. 16.02 - 27.02:
-    vika 9 og 10. 02.03 - 13.03:
-    vika 11 og 12. 16.03 - 27.03:
-    vika 13 og 14. 08.04 - 17.04:
-    vika 15 og 16. 20.04 - 01.05:
-    vika 17 og 18. 04.05 - 15.05:
+    23 Feb - 1 Mars:
+        Kattis dæmi kláruð: Endurvinnsla, Skytta, Leethaxor. Annars gerði ég ekkert mikilvægt.
+    
 
 
