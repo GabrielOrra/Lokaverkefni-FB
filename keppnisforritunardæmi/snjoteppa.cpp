@@ -29,7 +29,7 @@ int check(std::string &row1, std::string &row2, int columnNum) {
 
 int update(std::string &row1, std::string &row2, std::string choice) {
 
-    int rowPos = choice[2] - '0';
+    int rowPos = choice[2] - '0'; 
     
     // std::cout << rowPos << "\n";
 
