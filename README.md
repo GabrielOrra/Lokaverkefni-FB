@@ -12,5 +12,9 @@ Dagbók:
     23 Feb - 1 Mars:
         Kattis dæmi kláruð: Endurvinnsla, Skytta, Leethaxor. Annars gerði ég ekkert mikilvægt.
     
+    9 - 15 mars:
+        IOI Þjálfun og æfingakeppni. nokkur kattis dæmi, kláruð og ókláruð.
+    
+    
 
 
