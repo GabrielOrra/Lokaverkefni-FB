@@ -14,6 +14,11 @@ Dagbók:
     
     9 - 15 mars:
         IOI Þjálfun og æfingakeppni. nokkur kattis dæmi, kláruð og ókláruð.
+
+    16 - 22 mars:
+        kláraði fyrsta dæma pakkann í ioi þjálfun, nokkur dæmi úr pakka 2.
+        Norðurlanda olympiad (total failure), atcoder æfingakeppnir. 
+        Lærði um binary search og prefix sum.
     
     
 
