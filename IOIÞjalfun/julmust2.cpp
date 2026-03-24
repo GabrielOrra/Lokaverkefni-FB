@@ -2,24 +2,24 @@
 
 int main() {
 
-    int l = 1;
+    int l = 0;
     int h;
     std::cin >> h;
-    while (l <= h) {
+    for (int i = 1; i < 86; i++) {
 
         int m = (l+h) / 2;
-        // int m = l + (h - l) / 2;
-        std::cout << m << '\n' << std::flush; 
+
+        std::cout << m * i << '\n' << std::flush;
 
         std::string answer;
         std::cin >> answer;
 
-        if (answer == "lower") {
+        if (answer == "less") {
             h = m - 1;
-        } else if (answer == "higher") {
+        } else if (answer == "more") {
             l = m + 1;
         } else {
-            break;
+            return 0;
         }
     }
     return 0;
